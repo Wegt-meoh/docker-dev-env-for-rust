@@ -1,0 +1,12 @@
+services:
+  app:
+    entrypoint:
+    - sleep
+    - infinity
+    image: wgetmeoh/rust-lang-dev-env:debian
+    init: true
+    volumes:
+    - type: bind
+      source: ./
+      target: /com.docker.devenvironments.code
+
