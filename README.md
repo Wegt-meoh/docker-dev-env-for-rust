@@ -2,7 +2,7 @@
 
 ## Get Start
 
-1. create compose-dev.yaml in your project root dir or an empty dir, following config bind ./ to /com.docker.devenvironments.code, docker  makes /com.docker.devenvironments.code the default working dir.
+1. Create compose-dev.yaml in your project root dir or an empty dir, following config bind ./ to /com.docker.devenvironments.code, docker  makes /com.docker.devenvironments.code the default working dir.
 
     ```yaml
     services:
@@ -18,11 +18,11 @@
         target: /com.docker.devenvironments.code
     ```
 
-2. use docker dashboard create dev environment
-
-    ![Alt text](image.png)
+2. Use docker dashboard create dev environment
 
     Note that your project needs to include the compose-dev.yaml that mentioned above.
+
+    ![Alt text](image.png)
 
 ## Container content
 
