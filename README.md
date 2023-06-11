@@ -2,7 +2,7 @@
 
 ## Get Start
 
-1. create compose-dev.yaml in your project root dir or an empty dir, following config bind ./ to /workspace.
+1. create compose-dev.yaml in your project root dir or an empty dir, following config bind ./ to /com.docker.devenvironments.code, docker  makes /com.docker.devenvironments.code the default working dir.
 
     ```yaml
     services:
