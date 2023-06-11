@@ -18,7 +18,9 @@
         target: /com.docker.devenvironments.code
     ```
 
-2. Use docker dashboard create dev environment
+2. Use docker desktop create dev environment
+
+    [download docker desktop](https://www.docker.com/products/docker-desktop/)
 
     Note that your project needs to include the compose-dev.yaml that mentioned above.
 
