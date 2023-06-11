@@ -22,7 +22,7 @@
 
     ![Alt text](image.png)
 
-    use local directory or git repo, notice your project should have compose-dev.yaml above
+    Note that your project needs to include the compose-dev.yaml that mentioned above.
 
 ## Container content
 
